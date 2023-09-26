@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Caprasimo&family=Edu+SA+Beginner&family=Playfair+Display&family=Rubik&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: whitesmoke;
+}
+header{
+    background: rgb(19, 135, 189);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   min-height: 12vh;
+    width: 100%;
+    
+    
+}
+nav{
+    /* display: flex; */
+    /* justify-content: center; */
+    /* background: red; */
+width: 100%;
+}
+nav ul{
+display: flex;
+list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    padding:  25px;
+    margin: 12px;
+    display: flex;
+    transition: all 0.1s linear;
+    justify-content: center;
+    font-family: 'Baloo Bhai 2', cursive;
+font-family: 'Caprasimo', cursive;
+font-family: 'Edu SA Beginner', cursive;
+font-family: 'Playfair Display', serif;
+font-family: 'Rubik', sans-serif;
+    /* align-items: center; */
+}
+nav ul li a:hover{
+    color: rgb(228, 136, 17);
+    font-weight: bold;
+
+}
+main{
+    width: 100%;
+    height:100vh ;
+}
+footer{
+    min-height: 15vh;
+    background: rgb(19, 135, 189);
+    color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Baloo Bhai 2', cursive;
+        font-family: 'Caprasimo', cursive;
+        font-family: 'Edu SA Beginner', cursive;
+        font-family: 'Playfair Display', serif;
+        font-family: 'Rubik', sans-serif;
+
+}
+.search{
+    background: white;
+    width: 370px;
+    height: 3rem;
+    margin: 22px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.1s linear;
+    border-radius: 25rem;
+}
+.search.searchtext{
+    position: relative;
+    display: flex;
+    height: 50px;
+    width: 50px;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    border-radius: 25rem;
+    border: none;
+    outline: none;
+}
+.search:hover{
+    box-shadow:  0 1rem 1rem -0.5rem rgba(0, 0, 0, 0.5);
+    
+}
+.search input{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    border-radius: 25rem 0rem 0rem 25rem;
+    outline: none;
+    border: none;
+    font-size: 23px; 
+    font-family: 'Baloo Bhai 2', cursive;
+    font-family: 'Caprasimo', cursive;
+    font-family: 'Edu SA Beginner', cursive;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Rubik', sans-serif;
+}
+.search .search-icon{
+    
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    font-size: 20px;
+    line-height: 50px;
+    height: 100%;
+    width: 50px;
+    top: 0;
+    right: 0;
+
+}
+.bata{
+    height: 16rem;
+    border: 1px solid black;
+    border-radius: 2rem;
+    
+    margin: 4rem 3rem;
+}
